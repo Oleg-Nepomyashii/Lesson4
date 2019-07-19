@@ -6,15 +6,18 @@
 	</head>
 	<body>
 		<script>
-			var userNumber = +prompt('ВВедите число?');
+			var userNumber = +prompt('Ведите число?');
 
-			var result = '';
+			var str = '';
+			var res = '';
 
 			for(var i = userNumber; i > 0 ; i--) {
-				result += '*'
-				console.log(result);
-			};
+				str += '*';
+				res += '\n' + str;	
+			}; 
 
-		</script>
+			alert(res);
+			
+		</script> 
 	</body>
 </html>
